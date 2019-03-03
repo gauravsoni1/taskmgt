@@ -1,0 +1,27 @@
+.addTaskContainer{
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.addTaskAnimation-appear{
+  max-height: 0px;
+}
+
+.addTaskAnimation-appear.addTaskAnimation-appear-active {
+  max-height: 500px;
+  transition: max-height 300ms ease-in;
+}
+
+.addTaskAnimation-enter{
+  max-height: 0px;
+}
+
+.addTaskAnimation-enter.addTaskAnimation-enter-active {
+  max-height: 500px;
+  transition: max-height 300ms ease-in;
+}
+
+.addTaskAnimation-exit.addTaskAnimation-exit-active {
+  max-height: 0px;
+  transition: max-height 300ms ease-out;
+}

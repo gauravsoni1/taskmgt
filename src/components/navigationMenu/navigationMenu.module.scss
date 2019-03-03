@@ -1,0 +1,13 @@
+.navDrawer{
+  flex: 0 0 255px !important;
+}
+
+.navHeader{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin:5px;
+  img{
+    max-width: 75px;
+  }
+}

@@ -1,0 +1,21 @@
+.heading{
+  display: flex;
+  align-items: center;
+  margin:0px 20px;
+  justify-content: space-between;
+}
+
+.settingButton{
+  &:hover{
+    cursor: pointer;
+  }
+  height: 30px !important;
+  width: 30px !important;
+  color: rgb(255, 153, 0);
+  margin-left: auto !important;
+  margin-right: 20px !important;
+}
+
+.taskItemsContainer{
+  text-align: center;
+}

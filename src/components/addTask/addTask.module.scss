@@ -1,0 +1,28 @@
+.addTaskContainer{
+  padding: 15px;
+  margin: 10px 15px 30px 15px;
+  .textBox{
+    margin: 10px 0px;
+  }
+}
+
+.datePicker{
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  .spacer{
+    flex-grow: 1;
+  }
+  svg{
+    margin-right: 5px;
+  }
+  input{
+    font-weight: bold;
+  }
+}
+
+.addTaskActions{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row-reverse;
+}

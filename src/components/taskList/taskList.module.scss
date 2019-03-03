@@ -1,0 +1,38 @@
+
+.taskContainer {
+  display: flex;
+  flex-direction: column;
+  min-width: 450px;
+
+  &:hover{
+    cursor: pointer;
+    background-color: rgb(241, 247, 172)
+  }
+
+  .taskTitleContainer {
+    display: flex;
+    align-items: center;
+    .taskTitle{
+      font-size: 1.2em;
+    }
+  }
+
+  .dueDates {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+    align-items: center;
+
+    span {
+      color: red;
+      font-weight: bold;
+    }
+  }
+
+  .taskDescription{
+    color:#606b76;
+    margin-left: 50px;
+    margin-right: auto;
+    padding-bottom: 12px;    
+  }
+}
